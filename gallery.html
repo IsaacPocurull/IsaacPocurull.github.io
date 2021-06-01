@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
+    <title>Portfolio Minipuku</title>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700,800,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/gallery.css">
+</head>
+
+<body>
+            <div class="absolute">
+<div id="container_general">
+    <h1>MINIPUKU'S</h1>
+     <h1>GALLERY</h1>
+     <a href="index.html"><img class="boton" src="./imatges/boton3.png" alt="home"/></a>
+    <a href="aboutme.html"><img class="boton" src="./imatges/boton1.png" alt="aboutme"/></a>
+    <hr>
+    <h2>2D ANIMATION</h2>
+<div class="container">
+        <video src="./animation1.mp4" class="slider" autoplay loop controls></video>
+        <ul> <br>
+            <li onclick="videoslider('./imatges/animation1.mp4')"><video src="./imatges/animation1.mp4"></video></li>
+            <li onclick="videoslider('./imatges/animation2.mp4')"><video src="./imatges/animation2.mp4"></video></li>
+            <li onclick="videoslider('./imatges/animation3.mp4')"><video src="./imatges/animation3.mp4"></video></li>
+        </ul>
+    </div>
+    <script>
+        function videoslider(links){
+            document.querySelector(".slider").src = links;
+        }
+    </script>
+<h2>PIXEL ART</h2>
+   <img src="./imatges/run_animation_pog.gif" alt="run"/>
+   <img src="./imatges/idle_animation_pog.gif" alt="run"/>
+    <h2>UNITY</h2>
+      <div class="container">
+        <video src="./portal.mp4" class="slider2" autoplay loop controls></video>
+        <ul> <br>
+            <li onclick="videoslider('./imatges/portal.mp4')"><video src="./imatges/portal.mp4"></video></li>
+        </ul>
+    </div>
+    <script>
+        function videoslider(links){
+            document.querySelector(".slider2").src = links;
+        }
+    </script>
+    <h2>3D MODELING</h2>
+    <h2>3D ANIMATON</h2>
+    <h2>VFX / VIDEO EDITING</h2>
+    </div>
+    </div>
+</body>
+
+</html>
