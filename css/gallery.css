@@ -9,7 +9,8 @@ body{
     
 
     font-family: 'Raleway', sans-serif;
-    background-color: #3275bb;
+    background: blue url("../imatges/background.png") no-repeat fixed center ;
+    width: 100%;
 
 }
 
@@ -66,9 +67,6 @@ box-shadow: 5px 11px 19px 0px #000000;
     align-items:center;
 }
 
-img{
-    width: 200px;
-}
 .xxss{
     width: 60px;
 }
@@ -145,6 +143,5 @@ margin-top: 10px;
     transform: scale(1.1);
 }
 video{
-    width: 100%;
     height: 100%;
 }
